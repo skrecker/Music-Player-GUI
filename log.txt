@@ -1,0 +1,40 @@
+====Tue Nov 13 13:14:34 EST 2012  delvison
+--Things to do
+	--Make track browser a JLabel
+	--Move track Browser and searchbar
+	--Implement music playing capabilities
+	--Implement colorscheme
+	--make library draggable into the playlist
+	--fix bottom panels menu (maybe buttons or tabs instead?)
+	--put search and track browser on a JToolbar	
+
+=====Tue Oct 23 14:35:15 EDT 2012
+--SwingX library has JXMultiSplitPane class which allows you to create any layouts of resizable panels.
+----A very good article about it is at http://today.java.net/pub/a/today/2006/03/23/multi-split-pane.html
+
+======Thu Oct 18 14:55:31 EDT 2012
+--ideas about playing audio files with java
+http://www.javaworld.com/community/node/7498
+
+--it also looks like the JLayer plugin will help us out with mp3 playback
+http://thiscouldbebetter.wordpress.com/2011/07/04/pausing-an-mp3-file-using-jlayer/
+
+======Sun Oct 14 02:03:54 EDT 2012  delvison
+--IDEA FOR DESIGN
+  --2 Main Panels --> TOP (compact mode section) --> Bottom (Complete Mode bottom half)
+     
+-----> TOP PANEL
+     --Panel to hold buttons on left (play, rwd, ff)
+     --Panel for the center console where the current track's info is displayed
+     --Panel to hold components on the right
+
+-----> BOTTOM PANEL
+     --Split into 3 panes
+         --Menu
+	 --Library
+	 --Current Playlist
+
+======Thu Oct 11 23:12:58 EDT 2012  delvison
+-Progress bar for music track time position?
+http://docs.oracle.com/javase/tutorial/uiswing/components/progress.html
+
